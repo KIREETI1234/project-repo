@@ -6,6 +6,10 @@ services:
       - "8081:8081"
     networks:
       - ems-net
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://projdb.c9g0gq8oo4d4.us-east-1.rds.amazonaws.com:3306/employee
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: kireeti1234
 
   frontend:
     build: ./frontend
