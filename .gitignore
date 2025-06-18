@@ -1,0 +1,44 @@
+# Node.js (frontend)
+node_modules/
+build/
+dist/
+
+# Java (backend)
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Maven & Gradle
+.settings/
+.project
+.classpath
+.gradle/
+.mvn/
+!**/src/main/**
+!**/src/test/**
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Env / Credentials
+.env
+
+# Docker
+*.pid
+*.bak
+*.backup
+*.tar
+*.gz
+
+# Logs
+*.log
+logs/
